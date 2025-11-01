@@ -1,0 +1,227 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* Body */
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+/* Header */
+.main-header {
+    background-color: #004080;
+    color: #fff;
+    padding: 15px 30px;
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+/* University & Department Info */
+.name-section {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.name-section img {
+    width: 60px;
+    height: auto;
+}
+#bu-name, #cse-name {
+    font-size: 18px;
+}
+/* Navigation Bar */
+.nav-section ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+}
+.nav-section ul li a:hover,
+.nav-section ul li a.active {
+    background-color: #0066cc;
+    border-radius: 5px;
+}
+/* Banner Section */
+.banner-section {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+}
+.banner-section .banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease; 
+}
+/* Hover effect: slight zoom */
+.banner-section .banner-img:hover {
+    transform: scale(1.05);
+}
+/* Section Headings */
+.headings h1, .headings h2 {
+    margin-bottom: 10px;
+}
+.headings h1 {
+    font-size: 28px;
+    color: #004080;
+}
+.headings h2 {
+    font-size: 22px;
+    color: #333;
+}
+/* Message Section */
+.message-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+.hod {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+.hod-msg img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.hod-msg h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.hod-msg h1 {
+    font-size: 16px;
+    font-weight: normal;
+}
+.hod-cmnt p {
+    margin-bottom: 10px;
+}
+/* Buttons */
+.butt, .but1, .but2, .but3, .but4, .but5 {
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.butt:hover, .but1:hover, .but2:hover, .but3:hover, .but4:hover, .but5:hover {
+    background-color: #0066cc;
+}
+/* About Department */
+.abt-dept, .info {
+    padding: 20px 30px;
+}
+.abt-dept p {
+    margin-bottom: 10px;
+}
+/* Academic Programs */
+.academic-programs {
+    padding: 20px 30px;
+}
+.programs {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+.deg {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+}
+.tempimg {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.deg h1 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+/* Notice Board */
+.notice-board {
+    padding: 20px 30px;
+    background-color: #e6f0ff;
+    margin-top: 20px;
+}
+.notice-board .but3, .notice-board .but4 {
+    margin-top: 10px;
+}
+/* News Section */
+.news {
+    padding: 20px 30px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.abet {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.tempimg2 {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.extra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.date-info {
+    font-size: 14px;
+    color: #555;
+}
+/* Footer */
+.allfoot {
+    background-color: #004080;
+    color: #fff;
+    padding: 30px;
+}
+.foot {
+    display: flex;
+    gap: 20px;
+}
+.foot h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.foot p, .foot ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.styled-list {
+    list-style: none;
+    padding-left: 0;
+}
+.styled-list li a {
+    color: #fff;
+    text-decoration: none;
+}
+.styled-list li a:hover {
+    text-decoration: underline;
+}
+.icons a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.extra-foot {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: left;
+}
